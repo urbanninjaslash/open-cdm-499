@@ -1,0 +1,45 @@
+.cache
+test-work
+/out/
+.DS_Store
+_book
+dependency-reduced-pom.xml
+.gradle
+/.gradle/
+LOG_FILE_IS_UNDEFINED
+
+# Editor directories and files
+.settings
+target
+build
+.classpath
+.project
+*.iml
+*/*.iml
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.tar
+*.tar.gz
+pom.xml.versionsBackup
+
+# codes
+gen
+
+# buildTools
+package/buildTools/gradle/
+package/buildTools/.gradle/
+package/buildTools/gradlew
+package/buildTools/gradlew.bat
+
+# run data dir.
+/logs
+/data
+/install_upgrade.log
+
+# web
+node_modules
+dist
